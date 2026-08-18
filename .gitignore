@@ -1,0 +1,19 @@
+# Real candidate CVs — local test data only.
+# These contain real people's personal data and must never be committed
+# or deployed. Sample/synthetic CVs live in samples/ and ARE committed.
+CVs/
+uploads/
+
+# Vercel
+.vercel/
+
+# Python (legacy Flask version)
+__pycache__/
+venv/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Ranker — Screening Console</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scanline-overlay"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark">CV</span>
+      <span class="brand-text">Screening Console</span>
+    </div>
+    <div class="brand-sub">runs in your browser · no upload · no data leaves this device</div>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ===================== INPUT PANEL ===================== -->
+  <section class="panel intake" id="intakePanel">
+    <div class="panel-head">
+      <span class="eyebrow">01 — Define the role</span>
+      <h1>What are you hiring for?</h1>
+      <p class="panel-desc">Fill this in the way you'd brief a recruiter. The more specific, the sharper the ranking.</p>
+    </div>
+
+    <form id="rankForm">
+      <div class="field-row">
+        <div class="field">
+          <label for="job_category">Job category / title <span class="req">*</span></label>
+          <input type="text" id="job_category" name="job_category" placeholder="e.g. Senior Backend Engineer" required>
+        </div>
+        <div class="field">
+          <label for="min_experience">Minimum experience (years)</label>
+          <input type="number" id="min_experience" name="min_experience" min="0" placeholder="e.g. 3">
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="required_skills">Required skills <span class="hint">(comma-separated)</span></label>
+        <input type="text" id="required_skills" name="required_skills" placeholder="e.g. Python, Django, PostgreSQL, AWS, REST APIs">
+      </div>
+
+      <div class="field">
+        <label for="education_level">Minimum education level</label>
+        <select id="education_level" name="education_level">
+          <option value="">No preference</option>
+          <option value="High School">High School</option>
+          <option value="Bachelor's Degree">Bachelor's Degree</option>
+          <option value="Master's Degree">Master's Degree</option>
+          <option value="PhD">PhD</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="job_description">Full job description <span class="hint">(paste the whole thing — this drives most of the matching)</span></label>
+        <textarea id="job_description" name="job_description" rows="7" placeholder="Paste the job description / responsibilities / must-haves here..."></textarea>
+      </div>
+
+      <div class="field">
+        <label for="cv_files">Upload CVs <span class="hint">(PDF only, multiple files — e.g. 30 at once)</span></label>
+        <div class="dropzone" id="dropzone">
+          <input type="file" id="cv_files" name="cv_files" accept=".pdf" multiple hidden>
+          <div class="dropzone-content">
+            <span class="dropzone-title">Click to choose PDF files</span>
+            <span class="dropzone-sub" id="fileCount">No files selected</span>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn" id="submitBtn">
+        <span id="submitLabel">Run Screening</span>
+      </button>
+
+      <div class="demo-cta">
+        <button type="button" class="demo-btn" id="demoBtn">Try it with sample data</button>
+        <p class="demo-hint">
+          No CVs to hand? Loads a real job brief and six sample resumes, then runs the full screening.
+        </p>
+      </div>
+
+      <p class="error-msg" id="errorMsg"></p>
+    </form>
+  </section>
+
+  <!-- ===================== RESULTS PANEL ===================== -->
+  <section class="panel results" id="resultsPanel">
+    <div class="panel-head results-head">
+      <span class="eyebrow">02 — Ranked shortlist</span>
+      <h1 id="resultsTitle">Results will appear here</h1>
+      <p class="panel-desc" id="resultsSub">Run a screening to see candidates ranked by relevance.</p>
+    </div>
+
+    <div class="legend" id="legend" hidden>
+      <span class="legend-item"><i class="dot excellent"></i>Excellent</span>
+      <span class="legend-item"><i class="dot good"></i>Good</span>
+      <span class="legend-item"><i class="dot average"></i>Average</span>
+      <span class="legend-item"><i class="dot poor"></i>Poor</span>
+    </div>
+
+    <div id="loadingState" class="loading-state" hidden>
+      <div class="spinner"></div>
+      <p id="loadingText">Reading CVs and scoring candidates...</p>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    </div>
+
+    <div id="resultsList" class="results-list"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  Scoring runs entirely in your browser with a sentence-embedding model. Your CVs are never uploaded. Treat the ranking as a first-pass shortlist, not a hiring decision.
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

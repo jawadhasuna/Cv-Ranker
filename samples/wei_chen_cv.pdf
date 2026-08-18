@@ -1,0 +1,63 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1843 >>
+stream
+BT
+/F2 18 Tf 1 0 0 1 58 740 Tm (Wei Chen) Tj
+/F1 10 Tf 1 0 0 1 58 710 Tm (Data Analyst) Tj
+/F1 10 Tf 1 0 0 1 58 696 Tm (wei.chen@example.com  |  +65 8123 4567  |  Singapore) Tj
+/F1 10 Tf 1 0 0 1 58 682 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 668 Tm (SUMMARY) Tj
+/F1 10 Tf 1 0 0 1 58 646 Tm (Data analyst with 4 years turning operational data into decisions for retail and logistics) Tj
+/F1 10 Tf 1 0 0 1 58 632 Tm (teams. Strong SQL and reporting background with working knowledge of Python.) Tj
+/F1 10 Tf 1 0 0 1 58 618 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 604 Tm (SKILLS) Tj
+/F1 10 Tf 1 0 0 1 58 582 Tm (Analysis: SQL, Excel, Python \(pandas, matplotlib\), R) Tj
+/F1 10 Tf 1 0 0 1 58 568 Tm (BI Tools: Tableau, Power BI, Looker) Tj
+/F1 10 Tf 1 0 0 1 58 554 Tm (Data: PostgreSQL, BigQuery, Snowflake) Tj
+/F1 10 Tf 1 0 0 1 58 540 Tm (Other: A/B testing, forecasting, stakeholder reporting, dashboard design) Tj
+/F1 10 Tf 1 0 0 1 58 526 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 512 Tm (EXPERIENCE) Tj
+/F1 10 Tf 1 0 0 1 58 490 Tm (Data Analyst - Sunrise Retail Asia, Singapore \(2022 - Present\)) Tj
+/F1 10 Tf 1 0 0 1 58 476 Tm (Built the demand forecasting dashboard in Tableau used weekly by 40 store managers.) Tj
+/F1 10 Tf 1 0 0 1 58 462 Tm (Wrote PostgreSQL queries and Python scripts to automate a reporting process that previously took) Tj
+/F1 10 Tf 1 0 0 1 58 448 Tm (two analysts three days each month.) Tj
+/F1 10 Tf 1 0 0 1 58 434 Tm () Tj
+/F1 10 Tf 1 0 0 1 58 420 Tm (Junior Analyst - Pacific Freight Solutions, Singapore \(2021 - 2022\)) Tj
+/F1 10 Tf 1 0 0 1 58 406 Tm (Produced operational reporting on shipment delays and carrier performance.) Tj
+/F1 10 Tf 1 0 0 1 58 392 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 378 Tm (EDUCATION) Tj
+/F1 10 Tf 1 0 0 1 58 356 Tm (BSc Statistics, National University of Singapore \(2021\)) Tj
+/F1 10 Tf 1 0 0 1 58 342 Tm () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002146 00000 n 
+0000002243 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2345
+%%EOF

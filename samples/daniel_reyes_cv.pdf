@@ -1,0 +1,67 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2198 >>
+stream
+BT
+/F2 18 Tf 1 0 0 1 58 740 Tm (Daniel Reyes) Tj
+/F1 10 Tf 1 0 0 1 58 710 Tm (Backend Software Engineer) Tj
+/F1 10 Tf 1 0 0 1 58 696 Tm (d.reyes@example.com  |  +34 600 123 456  |  Barcelona, Spain) Tj
+/F1 10 Tf 1 0 0 1 58 682 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 668 Tm (SUMMARY) Tj
+/F1 10 Tf 1 0 0 1 58 646 Tm (Backend engineer with 6 years of experience building high-throughput Python services and REST) Tj
+/F1 10 Tf 1 0 0 1 58 632 Tm (APIs. Comfortable owning a service end to end, from schema design through deployment and on-call) Tj
+/F1 10 Tf 1 0 0 1 58 618 Tm (support.) Tj
+/F1 10 Tf 1 0 0 1 58 604 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 590 Tm (SKILLS) Tj
+/F1 10 Tf 1 0 0 1 58 568 Tm (Languages: Python, JavaScript, SQL) Tj
+/F1 10 Tf 1 0 0 1 58 554 Tm (Frameworks: Flask, FastAPI, SQLAlchemy, Pydantic) Tj
+/F1 10 Tf 1 0 0 1 58 540 Tm (Data: PostgreSQL, MongoDB, Redis) Tj
+/F1 10 Tf 1 0 0 1 58 526 Tm (Cloud: AWS \(EC2, S3, Lambda, SQS\), Docker, Kubernetes, Jenkins) Tj
+/F1 10 Tf 1 0 0 1 58 512 Tm (Other: REST APIs, GraphQL, message queues, unit and integration testing) Tj
+/F1 10 Tf 1 0 0 1 58 498 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 484 Tm (EXPERIENCE) Tj
+/F1 10 Tf 1 0 0 1 58 462 Tm (Backend Engineer - Cadena Logistics, Barcelona \(2020 - Present\)) Tj
+/F1 10 Tf 1 0 0 1 58 448 Tm (Built and maintained a fleet-tracking REST API in FastAPI backed by PostgreSQL, ingesting) Tj
+/F1 10 Tf 1 0 0 1 58 434 Tm (telemetry from 9,000 vehicles.) Tj
+/F1 10 Tf 1 0 0 1 58 420 Tm (Migrated a legacy Flask service onto AWS Lambda, reducing infrastructure spend by 38%.) Tj
+/F1 10 Tf 1 0 0 1 58 406 Tm (Introduced contract testing across seven internal services.) Tj
+/F1 10 Tf 1 0 0 1 58 392 Tm () Tj
+/F1 10 Tf 1 0 0 1 58 378 Tm (Software Engineer - Tivoli Media, Valencia \(2019 - 2020\)) Tj
+/F1 10 Tf 1 0 0 1 58 364 Tm (Developed Flask REST endpoints for a subscription billing platform on AWS.) Tj
+/F1 10 Tf 1 0 0 1 58 350 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 336 Tm (EDUCATION) Tj
+/F1 10 Tf 1 0 0 1 58 314 Tm (MSc Software Engineering, Universitat Politecnica de Catalunya \(2019\)) Tj
+/F1 10 Tf 1 0 0 1 58 300 Tm (BSc Computer Engineering, Universidad de Zaragoza \(2017\)) Tj
+/F1 10 Tf 1 0 0 1 58 286 Tm () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002501 00000 n 
+0000002598 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2700
+%%EOF

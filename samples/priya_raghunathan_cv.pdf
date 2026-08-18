@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1966 >>
+stream
+BT
+/F2 18 Tf 1 0 0 1 58 740 Tm (Priya Raghunathan) Tj
+/F1 10 Tf 1 0 0 1 58 710 Tm (Senior Software Engineer \(Java\)) Tj
+/F1 10 Tf 1 0 0 1 58 696 Tm (priya.r@example.com  |  +91 98200 11223  |  Bengaluru, India) Tj
+/F1 10 Tf 1 0 0 1 58 682 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 668 Tm (PROFILE) Tj
+/F1 10 Tf 1 0 0 1 58 646 Tm (Senior engineer with 7 years designing enterprise backend systems in Java and Spring Boot.) Tj
+/F1 10 Tf 1 0 0 1 58 632 Tm (Strong background in relational data modelling, REST API design and cloud deployment.) Tj
+/F1 10 Tf 1 0 0 1 58 618 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 604 Tm (SKILLS) Tj
+/F1 10 Tf 1 0 0 1 58 582 Tm (Languages: Java, Kotlin, SQL, some Python) Tj
+/F1 10 Tf 1 0 0 1 58 568 Tm (Frameworks: Spring Boot, Hibernate, JUnit) Tj
+/F1 10 Tf 1 0 0 1 58 554 Tm (Data: PostgreSQL, Oracle, Cassandra, Kafka) Tj
+/F1 10 Tf 1 0 0 1 58 540 Tm (Cloud: AWS \(EC2, RDS, S3\), Docker, Kubernetes, GitLab CI) Tj
+/F1 10 Tf 1 0 0 1 58 526 Tm (Other: REST APIs, event-driven architecture, domain-driven design) Tj
+/F1 10 Tf 1 0 0 1 58 512 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 498 Tm (EXPERIENCE) Tj
+/F1 10 Tf 1 0 0 1 58 476 Tm (Senior Software Engineer - Meridian Financial Systems, Bengaluru \(2020 - Present\)) Tj
+/F1 10 Tf 1 0 0 1 58 462 Tm (Led design of a REST API platform in Spring Boot processing 2.3 million transactions daily) Tj
+/F1 10 Tf 1 0 0 1 58 448 Tm (against a PostgreSQL cluster on AWS RDS.) Tj
+/F1 10 Tf 1 0 0 1 58 434 Tm (Reduced settlement batch runtime by 45% through query optimisation and caching.) Tj
+/F1 10 Tf 1 0 0 1 58 420 Tm () Tj
+/F1 10 Tf 1 0 0 1 58 406 Tm (Software Engineer - Ashwin Technologies, Chennai \(2017 - 2020\)) Tj
+/F1 10 Tf 1 0 0 1 58 392 Tm (Built Java microservices and integration layers for insurance clients.) Tj
+/F1 10 Tf 1 0 0 1 58 378 Tm () Tj
+/F2 11.5 Tf 1 0 0 1 58 364 Tm (EDUCATION) Tj
+/F1 10 Tf 1 0 0 1 58 342 Tm (BE Computer Science, Anna University \(2017\)) Tj
+/F1 10 Tf 1 0 0 1 58 328 Tm () Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002269 00000 n 
+0000002366 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2468
+%%EOF

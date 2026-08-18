@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cv-ranker",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8000", "--directory", "C:/Users/Jawad Hassan/Documents/Resume-Agent-main"],
+      "port": 8000
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Flask==3.0.3
+pdfplumber==0.11.4
+sentence-transformers==3.0.1
+werkzeug==3.0.3

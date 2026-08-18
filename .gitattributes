@@ -1,0 +1,9 @@
+# PDFs are binary — never apply EOL conversion, it corrupts them on checkout.
+*.pdf binary
+
+# Keep web assets LF in the repo so deploys are byte-stable.
+*.js   text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
