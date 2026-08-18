@@ -17,3 +17,6 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# Local editor/preview config
+.claude/
