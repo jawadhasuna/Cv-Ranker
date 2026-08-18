@@ -1,5 +1,5 @@
 # CV / Resume Ranker — Screening Console
-
+https://cvranker.vercel.app
 Rank a batch of CVs (PDFs) against a job description, in the browser.
 
 Paste a job brief, drop in some PDFs, and get a ranked shortlist with a
