@@ -132,17 +132,10 @@ body {
 .brand { display: flex; align-items: center; gap: 11px; }
 
 .brand-mark {
-  display: grid;
-  place-items: center;
+  display: block;
   width: 30px;
   height: 30px;
-  border-radius: 8px;
-  background: var(--solid);
-  color: var(--surface);
-  font-family: var(--font-mono);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  flex-shrink: 0;
 }
 
 .brand-text {
