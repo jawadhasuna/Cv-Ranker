@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="CV Ranker">
   <title>CV Ranker</title>
-  <rect width="32" height="32" rx="7" fill="#2B5CE6"/>
-  <rect x="7"  y="8.5"  width="18" height="4" rx="2" fill="#FFFFFF"/>
-  <rect x="7"  y="14"   width="12.5" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.78"/>
-  <rect x="7"  y="19.5" width="7.5"  height="4" rx="2" fill="#FFFFFF" fill-opacity="0.52"/>
+  <rect width="32" height="32" rx="7" fill="#DE3A2E"/>
+  <rect x="7" y="8.5"  width="18"   height="4" rx="2" fill="#14213D"/>
+  <rect x="7" y="14"   width="12.5" height="4" rx="2" fill="#14213D"/>
+  <rect x="7" y="19.5" width="7.5"  height="4" rx="2" fill="#14213D"/>
 </svg>

@@ -7,36 +7,36 @@
    =========================================================== */
 :root {
   /* surfaces */
-  --bg:            #F5F6F8;
+  --bg:            #F6F5F4;
   --surface:       #FFFFFF;
   --surface-alt:   #FAFBFC;
-  --surface-sunk:  #F1F3F6;
+  --surface-sunk:  #F2F1EF;
 
   /* lines */
-  --border:        #E2E6EB;
-  --border-strong: #CFD5DD;
+  --border:        #E5E2DF;
+  --border-strong: #D2CECA;
 
   /* type */
-  --text:          #101828;
-  --text-muted:    #5A6573;
-  --text-faint:    #697586;
+  --text:          #14213D;
+  --text-muted:    #5A6376;
+  --text-faint:    #6C7488;
 
   /* interactive */
-  --accent:        #2B5CE6;
-  --accent-hover:  #1E48C4;
-  --accent-tint:   #ECF1FE;
-  --solid:         #151B26;
-  --solid-hover:   #262E3D;
+  --accent:        #C4302A;
+  --accent-hover:  #A32621;
+  --accent-tint:   #FCECEA;
+  --solid:         #14213D;
+  --solid-hover:   #22345E;
 
   /* grade scale — muted, print-safe, no neon */
   --excellent:      #067A55;
   --excellent-tint: #E4F5EE;
-  --good:           #1F56C3;
-  --good-tint:      #E9EFFC;
+  --good:           #1F3D7A;
+  --good-tint:      #E8EDF6;
   --average:        #9C5207;
   --average-tint:   #FBF0E2;
-  --poor:           #C33636;
-  --poor-tint:      #FBEAEA;
+  --poor:           #8E1B1B;
+  --poor-tint:      #F6E6E6;
   --unreadable:     #78828F;
   --unreadable-tint:#EFF1F4;
 
@@ -65,20 +65,20 @@
     --text-muted:    #98A2B0;
     --text-faint:    #7F8A9A;
 
-    --accent:        #6E93F7;
-    --accent-hover:  #89A7F9;
-    --accent-tint:   #18202F;
+    --accent:        #F2695C;
+    --accent-hover:  #F7897E;
+    --accent-tint:   #2E1614;
     --solid:         #E8ECF2;
     --solid-hover:   #FFFFFF;
 
     --excellent:      #35C48D;
     --excellent-tint: #10261F;
-    --good:           #6E93F7;
-    --good-tint:      #151D2D;
+    --good:           #7C9BE0;
+    --good-tint:      #161E2E;
     --average:        #D9903D;
     --average-tint:   #251C10;
-    --poor:           #E56B6B;
-    --poor-tint:      #271314;
+    --poor:           #E8615B;
+    --poor-tint:      #2A1312;
     --unreadable:     #78828F;
     --unreadable-tint:#1A1F27;
 
@@ -265,7 +265,7 @@ input:focus, select:focus, textarea:focus {
 
 select {
   appearance: none;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M3 4.5L6 8l3-3.5' fill='none' stroke='%238C96A3' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M3 4.5L6 8l3-3.5' fill='none' stroke='%236C7488' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round'/></svg>");
   background-repeat: no-repeat;
   background-position: right 11px center;
   padding-right: 30px;
