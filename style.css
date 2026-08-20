@@ -1,91 +1,66 @@
 /* ===========================================================
-   CV Screening Console — design tokens
+   CV Ranker - design tokens
 
-   Light-first, neutral, low-chroma. The only saturated colour
-   in the interface is the grade scale, so relevance is the
-   thing your eye lands on first.
+   One theme, always. The console is dark whatever the operating
+   system asks for, so there is no prefers-color-scheme block and
+   no light palette to keep in sync. `color-scheme: dark` makes the
+   browser draw its own widgets - scrollbars, file pickers, autofill
+   - to match, instead of stamping white boxes onto an oxblood page.
+
+   The ground is red; the grade scale still has to be the loudest
+   thing on screen. That works because the ground is dark and the
+   interactive colour is navy, so the only saturated warm colour
+   competing with "Poor" is the logo.
    =========================================================== */
 :root {
-  /* surfaces */
-  --bg:            #F6F5F4;
-  --surface:       #FFFFFF;
-  --surface-alt:   #FAFBFC;
-  --surface-sunk:  #F2F1EF;
+  color-scheme: dark;
+
+  /* surfaces - oxblood, dark enough that the grade colours still carry */
+  --bg:            #1F1113;
+  --surface:       #2A181A;
+  --surface-alt:   #311D20;
+  --surface-sunk:  #180D0F;
 
   /* lines */
-  --border:        #E5E2DF;
-  --border-strong: #D2CECA;
+  --border:        #432628;
+  --border-strong: #5C3437;
 
   /* type */
-  --text:          #14213D;
-  --text-muted:    #5A6376;
-  --text-faint:    #6C7488;
+  --text:          #F6EAEA;
+  --text-muted:    #BDA6A7;
+  --text-faint:    #9C8586;
 
-  /* interactive */
-  --accent:        #C4302A;
-  --accent-hover:  #A32621;
-  --accent-tint:   #FCECEA;
-  --solid:         #14213D;
-  --solid-hover:   #22345E;
+  /* interactive - navy, lifted from the logo's #14213D so it still reads
+     as an object against a dark ground rather than disappearing into it */
+  --accent:        #FF9080;
+  --accent-hover:  #FFAA9C;
+  --accent-tint:   #3B1E1E;
+  --solid:         #4166AE;
+  --solid-hover:   #5077C1;
+  --solid-text:    #FFFFFF;
 
-  /* grade scale — muted, print-safe, no neon */
-  --excellent:      #067A55;
-  --excellent-tint: #E4F5EE;
-  --good:           #1F3D7A;
-  --good-tint:      #E8EDF6;
-  --average:        #9C5207;
-  --average-tint:   #FBF0E2;
-  --poor:           #8E1B1B;
-  --poor-tint:      #F6E6E6;
-  --unreadable:     #78828F;
-  --unreadable-tint:#EFF1F4;
+  /* grade scale - Poor is pulled to a cooler crimson so it separates from
+     the coral link colour (dE 24, against dE 5 before this change) */
+  --excellent:      #45DCA6;
+  --excellent-tint: #0F3025;
+  --good:           #79CDEC;
+  --good-tint:      #102A36;
+  --average:        #F5B25C;
+  --average-tint:   #33240F;
+  --poor:           #FF5F72;
+  --poor-tint:      #431A20;
+  --unreadable:     #9B8687;
+  --unreadable-tint:#2C1E20;
 
-  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.04);
-  --shadow-md: 0 1px 3px rgba(16, 24, 40, 0.06), 0 4px 12px rgba(16, 24, 40, 0.05);
-  --shadow-lg: 0 2px 6px rgba(16, 24, 40, 0.06), 0 12px 28px rgba(16, 24, 40, 0.08);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 12px 28px rgba(0, 0, 0, 0.3);
 
   --radius:    10px;
   --radius-sm: 7px;
 
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg:            #0E1116;
-    --surface:       #161A21;
-    --surface-alt:   #1A1F27;
-    --surface-sunk:  #11151B;
-
-    --border:        #262C36;
-    --border-strong: #333B47;
-
-    --text:          #E8ECF2;
-    --text-muted:    #98A2B0;
-    --text-faint:    #7F8A9A;
-
-    --accent:        #F2695C;
-    --accent-hover:  #F7897E;
-    --accent-tint:   #2E1614;
-    --solid:         #E8ECF2;
-    --solid-hover:   #FFFFFF;
-
-    --excellent:      #35C48D;
-    --excellent-tint: #10261F;
-    --good:           #7C9BE0;
-    --good-tint:      #161E2E;
-    --average:        #D9903D;
-    --average-tint:   #251C10;
-    --poor:           #E8615B;
-    --poor-tint:      #2A1312;
-    --unreadable:     #78828F;
-    --unreadable-tint:#1A1F27;
-
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-    --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.35), 0 4px 12px rgba(0, 0, 0, 0.25);
-    --shadow-lg: 0 2px 6px rgba(0, 0, 0, 0.4), 0 12px 28px rgba(0, 0, 0, 0.3);
-  }
 }
 
 * { box-sizing: border-box; }
@@ -309,7 +284,7 @@ select {
   width: 100%;
   margin-top: 4px;
   background: var(--solid);
-  color: var(--surface);
+  color: var(--solid-text);
   border: none;
   border-radius: var(--radius-sm);
   padding: 11px 18px;
